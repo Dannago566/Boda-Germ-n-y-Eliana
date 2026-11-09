@@ -9,7 +9,7 @@
 8. Dress Code · 9. Sugerencia de regalo · 10. Confirmar asistencia (WhatsApp) · 11. ¡Te esperamos!
 
 ## Lo primero que debes completar (`js/config.js`)
-- **`confirmacion.whatsapp`**: indicativo + número, solo dígitos. Ej: `"573001234567"`.
+- `confirmacion.whatsapp` y `mensajeWhatsapp`: número y mensaje que se escribe solo en el chat (ya configurados).
   El botón *Confirmar* abre ese chat con el mensaje ya escrito. Si lo dejas vacío, WhatsApp pedirá elegir el contacto.
 - `ceremonia.direccion` y `ceremonia.mapa` (enlace exacto de Google Maps). Igual para `recepcion`.
 - `confirmacion.fechaLimite` (texto, ej. `"30 de noviembre"`) y `cierre` (fecha exacta, oculta el botón al vencer).
@@ -18,7 +18,7 @@
 ## Opcionales
 - Foto de la pareja: guarda un JPG vertical como `assets/images/pareja.jpg` (si no existe, no se muestra nada).
 - `galeria` (lista de fotos), `regalos.cuentas` (con botón copiar), `vestimenta.nota`.
-- `musica`: pon un .mp3 en `assets/music/` y escribe la ruta; aparece el botón **Dale play**.
+- `musica`: guarda el mp3 de "Sara perché ti amo" (violín) como `assets/music/sara-perche-ti-amo.mp3`. Si el archivo no existe, los botones de música no aparecen.
 
 ## Enlaces personalizados
 `index.html?invitado=Familia%20Rojas&pases=3` muestra "Invitación para Familia Rojas · 3 pases" y
