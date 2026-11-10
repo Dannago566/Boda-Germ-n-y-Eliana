@@ -18,7 +18,7 @@
 ## Opcionales
 - Foto de la pareja: guarda un JPG vertical como `assets/images/pareja.jpg` (si no existe, no se muestra nada).
 - `galeria` (lista de fotos), `regalos.cuentas` (con botón copiar), `vestimenta.nota`.
-- `musica`: guarda el mp3 de "Sara perché ti amo" (violín) como `assets/music/sara-perche-ti-amo.mp3`. Si el archivo no existe, los botones de música no aparecen.
+- `musica`: "Desde que te tengo" (Carin León), ya recortada para empezar en el segundo 28 (`assets/music/desde-que-te-tengo.mp3`).
 
 ## Enlaces personalizados
 `index.html?invitado=Familia%20Rojas&pases=3` muestra "Invitación para Familia Rojas · 3 pases" y
