@@ -18,11 +18,15 @@
 ## Opcionales
 - Foto de la pareja: guarda un JPG vertical como `assets/images/pareja.jpg` (si no existe, no se muestra nada).
 - `galeria` (lista de fotos), `regalos.cuentas` (con botón copiar), `vestimenta.nota`.
-- `musica`: "Qué más puedo pedir" (Carin León), ya recortada para empezar en el segundo 6 (`assets/music/que-mas-puedo-pedir.mp3`).
+- `musica`: "Sara perché ti amo" (violín), recortada para empezar en el segundo 9 (`assets/music/sara-perche-ti-amo.mp3`).
 
-## Enlaces personalizados
-`index.html?invitado=Familia%20Rojas&pases=3` muestra "Invitación para Familia Rojas · 3 pases" y
-ese nombre y número de personas viajan en el mensaje de WhatsApp al confirmar.
+## Enlaces personalizados (92 invitados, un solo sitio)
+La lista está en `js/invitados.js`. Cada invitado tiene un enlace corto: `https://TU-SITIO/?i=yair-parra`.
+Ese enlace muestra en el sobre el sello "Save the day" con el nombre ("Sr. Yair Parra, Sra e Hija"), y el nombre viaja
+en el mensaje de WhatsApp al confirmar. Sin `?i=`, el sello sale sin nombre.
+
+Para generar y enviar los enlaces abre **`generador-de-enlaces.html`** (en la carpeta de arriba, NO la subas con el sitio):
+pega la dirección de tu página publicada y copia o envía por WhatsApp el enlace de cada invitado.
 
 ## Colores
 Están al inicio de `css/styles.css` (`--royal`, `--royal-deep`, `--sky`…). Las ilustraciones en `assets/images/` ya están en azul rey.
