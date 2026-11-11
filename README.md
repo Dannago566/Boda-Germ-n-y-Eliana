@@ -18,7 +18,7 @@
 ## Opcionales
 - Foto de la pareja: guarda un JPG vertical como `assets/images/pareja.jpg` (si no existe, no se muestra nada).
 - `galeria` (lista de fotos), `regalos.cuentas` (con botón copiar), `vestimenta.nota`.
-- `musica`: "Desde que te tengo" (Carin León), ya recortada para empezar en el segundo 28 (`assets/music/desde-que-te-tengo.mp3`).
+- `musica`: "Qué más puedo pedir" (Carin León), ya recortada para empezar en el segundo 6 (`assets/music/que-mas-puedo-pedir.mp3`).
 
 ## Enlaces personalizados
 `index.html?invitado=Familia%20Rojas&pases=3` muestra "Invitación para Familia Rojas · 3 pases" y
