@@ -20,7 +20,7 @@
 - `galeria` (lista de fotos), `regalos.cuentas` (con botón copiar), `vestimenta.nota`.
 - `musica`: "Sara perché ti amo" (violín), recortada para empezar en el segundo 9 (`assets/music/sara-perche-ti-amo.mp3`).
 
-## Enlaces personalizados (92 invitados, un solo sitio)
+## Enlaces personalizados (102 invitados, un solo sitio)
 La lista está en `js/invitados.js`. Cada invitado tiene un enlace corto: `https://TU-SITIO/?i=yair-parra`.
 Ese enlace muestra en el sobre el sello "Save the day" con el nombre ("Sr. Yair Parra, Sra e Hija"), y el nombre viaja
 en el mensaje de WhatsApp al confirmar. Sin `?i=`, el sello sale sin nombre.
